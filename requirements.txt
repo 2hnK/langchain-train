@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-postgres
+langchain-text-splitters
+langchain-postgres
+psycopg[binary]
+pgvector
+openai

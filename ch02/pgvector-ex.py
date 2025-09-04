@@ -34,3 +34,10 @@ db.add_documents(
 
 results = db.similarity_search("query", k=2)
 print(results)
+
+# db.delete(ids=[1])s
+
+"""
+데이터가 지속적으로 변화하는 상황에서 벡터DB는 데이터를 다시 인덱싱한다.
+이로 인해 계산 비용이 지속적으로 발생하고, 기존 콘텐츠가 중복되기도 한다.
+"""
